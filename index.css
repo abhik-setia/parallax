@@ -12,6 +12,7 @@ body{
   overflow-y:scroll;
   font-family:cursive;  
   color:white;
+  background-color:#222; 
 }
 h1{
   font-size:250%; 
@@ -74,9 +75,10 @@ p {
   background-image: url("bk1.jpg");
    background-attachment: fixed;  
 }
+/*scale=1+(translateZ*-1)/perspective */
 #slide1:before {
   background-image: url("2.jpg");
-  transform: translateZ(-1px) scale(2);
+  transform: translateZ(-10px) scale(11);
   z-index:-1;
 }
 
@@ -87,7 +89,7 @@ p {
 
 #slide3:before {
   background-image: url("9.jpg");
-  transform: translateZ(-1px) scale(2);
+  transform: translateZ(-10px) scale(11);
   z-index:-1;
 }
 
